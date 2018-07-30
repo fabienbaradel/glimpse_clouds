@@ -2,7 +2,9 @@
 
 This repository will contain the code of the paper ["Glimpse Clouds: Human Activity Recognition from Unstructured Feature Points"](http://openaccess.thecvf.com/content_cvpr_2018/papers/Baradel_Glimpse_Clouds_Human_CVPR_2018_paper.pdf) by F. Baradel, C. Wolf, J. Mille and G.W. Taylor presented at CVPR 2018.
 
+![](./img/teaser.png)
 Check out the [project page](https://fabienbaradel.github.io/cvpr18_glimpseclouds/) for more information.
+
 
 ### Data preprocessing
 You should download the [NTU-DATASET](https://github.com/shahroudy/NTURGB-D) and install the [`lintel`](https://github.com/dukebw/lintel) module for efficiently decoding videos on the fly.
