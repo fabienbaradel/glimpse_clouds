@@ -26,7 +26,7 @@ This can be done by running the following command:
 ```
 where `<DIR-CKPT>` is where you want to store your files (log, checkpoints) and `<LOCATION-NTU>` is the location of the NTU dataset on your cluster.
 
-Below is teh generic python command for running the code
+Below is the generic python command for running the code
 ```shell
 python src/main.py \
 --dir <DIR-CKPT> \
