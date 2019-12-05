@@ -160,7 +160,7 @@ def loss_encourage_divesity(attention_points):
     # Distance L2
     dist_btw_glimpses = mse_loss(attention_points_1, attention_points_2)
 
-    return dist_btw_glimpses
+    return 1./(1.+dist_btw_glimpses)
 
 
 def mse_loss(input, target):
